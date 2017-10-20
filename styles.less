@@ -2,18 +2,27 @@
 
 body {
   font-family: @body-font;
-  text-align: center;
   background: @background-color;
 }
 
 .title {
   font-family: @title-font;
-  font-size: @title-font-size;
+	text-align: center;
+	font-size: @title-font-size;
   color: @blue;
+}
+
+.generate, .button-container {
+	text-align: center;
 }
 
 .show-text {
   color: @medium-blue;
+}
+
+#inky-dinky {
+	font-size: @button-font-size;
+	margin-left: 0;
 }
 
 button {
@@ -68,21 +77,21 @@ button#generate:active {
 }
 
 button#submit {
-  background: @pink;
-  box-shadow: 0 6px @darker-pink;
+  background: @green;
+  box-shadow: 0 6px @darker-green;
 }
 
 button#submit:hover {
-  box-shadow: 0 4px @darker-pink;
+  box-shadow: 0 4px @darker-green;
 }
 
 button#submit:active {
-  box-shadow: 0 0 @darker-pink;
+  box-shadow: 0 0 @darker-green;
 }
 
 .input-field {
   font-family: @body-font;
-  font-size: 18px;
+  font-size: @input-font-size;
 	border: none;
 	border-radius: 0;
 	color: @grey;
@@ -120,5 +129,19 @@ button#submit:active {
 }
 
 .correct-banner {
-  color: @green
+  color: @darker-green
+}
+
+@media only screen and (min-width: 768px) {
+	.title {
+		font-size: @title-font-size-desktop;		
+	}
+
+	button {
+		font-size: @button-font-size-desktop;
+	}
+
+	.input-field {
+		font-size: @input-font-size-desktop;
+	}
 }
