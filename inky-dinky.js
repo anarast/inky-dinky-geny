@@ -6,10 +6,13 @@ function generateInkyDinky() {
   // Clear inky dinky
   currentInkyDinky = '';
 
-  // Clear hint, answer, info
+  // Clear hint, answer, info, banners, input
   document.getElementById('hint').innerHTML = '';
   document.getElementById('answer').innerHTML = '';
   document.getElementById('info').innerHTML = '';
+  document.getElementsByClassName('correct-banner')[0].style.display = 'none';
+  document.getElementsByClassName('incorrect-banner')[0].style.display = 'none';
+  document.getElementById('input-guess').value = '';
 
   // Generate new inky dinky
   let randomId = Math.floor((Math.random() * 8) + 1);
@@ -17,6 +20,37 @@ function generateInkyDinky() {
   document.getElementById('inky-dinky').innerHTML = currentInkyDinky.description;
 
   generated = true;
+  showInput();
+}
+
+function showInput() {
+  let input = document.getElementsByClassName('input')[0];
+  let submit = document.getElementById('submit');
+  if (generated) {
+    input.style.display = 'inline-block';
+    submit.style.display = 'inline-block';
+  } else {
+    input.style.display = 'none';
+  }
+}
+
+function submitGuess() {
+  let guess = document.getElementById('input-guess').value;
+  if (currentInkyDinky.answer.toLowerCase().indexOf(guess) >= 0) {
+    showCorrectBanner();
+  } else {
+    showIncorrectBanner();
+  }
+}
+
+function showCorrectBanner() {
+  document.getElementsByClassName('correct-banner')[0].style.display = 'block';
+  document.getElementsByClassName('incorrect-banner')[0].style.display = 'none';
+}
+
+function showIncorrectBanner() {
+  document.getElementsByClassName('correct-banner')[0].style.display = 'none';
+  document.getElementsByClassName('incorrect-banner')[0].style.display = 'block';
 }
 
 function showOrHideHint() {

@@ -1,14 +1,18 @@
 @import "variables.less";
 
+.show-text {
+  margin: 16px 0;
+}
+
 .button-container {
   margin-top: 32px;
 }
 
 button {
   position: relative;
-  padding: 25px 80px;
+  padding: 20px 50px;
 	display: inline-block;
-  margin: 15px 30px;
+  margin: 10px;
 }
 
 button:after {
@@ -22,4 +26,27 @@ button:hover {
 
 button:active {
 	top: 6px;
+}
+
+button#submit {
+  display: none;
+  padding: 10px 30px;
+}
+
+.input {
+  display: none;
+	margin: 1em;
+	max-width: 400px;
+}
+
+.input-field {
+	padding: 0.8em;
+}
+
+.incorrect-banner {
+  display: none;
+}
+
+.correct-banner {
+  display: none;
 }

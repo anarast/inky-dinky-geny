@@ -17,23 +17,33 @@
   <div class="title">INKY DINKY GENERATOR, BABY</div>
 
   <div class="button-container">
-    <button id="generate" onclick="generateInkyDinky()">Generate inky dinky</button>
-    <div id="inky-dinky"></div>
+    <button id="generate" onclick="generateInkyDinky()">Generate<br/>inky<br/>dinky</button>
+    <div class="show-text" id="inky-dinky"></div>
   </div>
+  
+  <span class="input">
+    <input class="input-field input-answer" type="text" id="input-guess" placeholder="Enter your guess here"></input>
+  </span>
+  <span>
+    <button id="submit" type="submit" onclick="submitGuess()">Submit</button>  
+  </span>
+
+  <div class="correct-banner">You got it!</div>
+  <div class="incorrect-banner">Sorry! Try again, or click the 'hint' button first.</div>
   
   <div class="button-container">
     <button onclick="showOrHideHint()">Give me a hint!</button>
-    <div id="hint"></div>
+    <div class="show-text" id="hint"></div>
   </div>
 
   <div class="button-container">
     <button onclick="showOrHideAnswer()">I give up!</button>
-    <div id="answer"></div>
+    <div class="show-text" id="answer"></div>
   </div>
 
   <div class="button-container">
     <button onclick="showOrHideInfo()">What's an inky dinky?</button>
-    <div id="info"></div>
+    <div class="show-text" id="info"></div>
   </div>
 
   <script type="text/javascript" src="./data.js"></script>  
