@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>INKY DINKY</title>
+  <link rel="stylesheet/less" type="text/css" href="./styles.less" />  
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+  
+</head>
+
+<body>
+
+  <div class="title">INKY DINKY GENERATOR, BABY</div>
+
+  <button onclick="showInfo()">What's an inky dinky?</button>
+
+  <button id="generate" onclick="generateInkyDinky()">Generate inky dinky</button>
+  <button onclick="showHint()">Give me a hint!</button>
+  <button onclick="showAnswer()">I give up!</button>
+
+  <div id="inky-dinky"></div>
+  <div id="hint"></div>
+  <div id="answer"></div>
+  <div id="info"></div>
+
+  <script type="text/javascript" src="./inky-dinky.js"></script>  
+</body>
+</html>
+
