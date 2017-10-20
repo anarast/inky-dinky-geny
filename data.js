@@ -2,22 +2,22 @@ data = {
   "1": {
     "description": "A primate that likes to get down",
     "hint": "Not an ape",
-    "answer": "A funky monkey"
+    "answer": "Funky monkey"
   },
   "2": {
     "description": "A light-headed work of art",
     "hint": "Most have a canvas medium",
-    "answer": "A fainting painting"
+    "answer": "Fainting painting"
   },
   "3": {
     "description": "A mysterious three-paneled piece of art",
     "hint": "Very obscure",
-    "answer": "A cryptic triptych"
+    "answer": "Cryptic triptych"
   },
   "4": {
     "description": "An indolent flower",
     "hint": "You make chains out of these",
-    "answer": "A lazy daisy"
+    "answer": "Lazy daisy"
   },
   "5": {
     "description": "Electricity that comes from plants",
@@ -27,12 +27,12 @@ data = {
   "6": {
     "description": "A dispute over who won the Olympics",
     "hint": "This probably happened in ancient Greece",
-    "answer": "A laurel quarrel"
+    "answer": "Laurel quarrel"
   },
   "7": {
     "description": "A humorous rabbit",
     "hint": "These animals like to have sex",
-    "answer": "A funny bunny"
+    "answer": "Funny bunny"
   },
   "8": {
     "description": "That time of year when assassinating country leaders is really popular",
@@ -42,7 +42,7 @@ data = {
   "9": {
     "description": "What you would learn about if you went to a museum run by a specific bird of prey",
     "hint": "A lot of the art depicts these birds of prey eating dead things",
-    "answer": "Treason season"
+    "answer": "Vulture culture"
   },
   "10": {
     "description": "A song professing one's love for greens",
@@ -86,7 +86,7 @@ data = {
   },
   "18": {
     "description": "If you had a reptile pet and it died",
-    "hint": "",
-    "answer": "Dental rental"
+    "hint": "A rigid dead pet",
+    "answer": "Tortoise mortis"
   }
 };

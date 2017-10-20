@@ -1,8 +1,8 @@
 @import "variables.less";
 
 body {
-  font-family: @body-font;
-  background: @background-color;
+	font-family: @body-font;
+	background-color: @pale-blue;
 }
 
 .title {
@@ -17,19 +17,20 @@ body {
 }
 
 .show-text {
-  color: @medium-blue;
+	color: @medium-blue;
+	font-size: @font-size;
 }
 
 #inky-dinky {
-	font-size: @button-font-size;
+	font-size: @font-size;
 	margin-left: 0;
 }
 
 button {
-  border: none;
+  border: @pale-blue;
   border-radius: 0 0 5px 5px;
 	font-family: inherit;
-	font-size: @button-font-size;
+	font-size: @font-size;
 	color: inherit;
 	cursor: pointer;
 	text-transform: uppercase;
@@ -40,7 +41,7 @@ button {
 	-moz-transition: all 0.3s;
   transition: all 0.3s;
   background: @lighter-blue;
-	color: #fff;
+	color: @white;
 	box-shadow: 0 6px @medium-blue;
 	-webkit-transition: none;
 	-moz-transition: none;
@@ -104,7 +105,6 @@ button#submit:active {
 }
 
 .input-guess {
-	background: #fff;
 	box-shadow: 0px 0px 0px 2px transparent;
 	color: @lighter-blue;
 	-webkit-transition: box-shadow 0.3s;
@@ -125,10 +125,12 @@ button#submit:active {
 }
 
 .incorrect-banner {
+	font-size: @font-size;
   color: @orange;
 }
 
 .correct-banner {
+	font-size: @font-size;
   color: @darker-green
 }
 
@@ -138,10 +140,26 @@ button#submit:active {
 	}
 
 	button {
-		font-size: @button-font-size-desktop;
+		font-size: @font-size-desktop;
 	}
 
 	.input-field {
 		font-size: @input-font-size-desktop;
+	}
+
+	#inky-dinky {
+		font-size: @font-size-desktop;
+	}
+
+	.show-text {
+		font-size: @font-size-desktop;
+	}
+
+	.incorrect-banner {
+		font-size: @font-size-desktop;
+	}
+	
+	.correct-banner {
+		font-size: @font-size-desktop;
 	}
 }

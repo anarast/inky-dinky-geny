@@ -4,12 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>INKY DINKY</title>
+  <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet/less" type="text/css" href="./styles.less" /> 
   <link rel="stylesheet/less" type="text/css" href="./layout.less" />   
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
   <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
-  
+  <script type="text/javascript" src="./data.js"></script>  
+  <script type="text/javascript" src="./inky-dinky.js"></script>  
 </head>
 
 <body>
@@ -25,9 +27,9 @@
       </div>
       <div>
         <button id="submit" type="submit" onclick="submitGuess()">Submit</button> 
-      </div>    
+      </div>      
       <div class="correct-banner">You got it!</div>
-      <div class="incorrect-banner">Incorrect! Try again, or click the 'hint' button first.</div>      
+      <div class="incorrect-banner">Incorrect! Try again, or click the 'hint' button first.</div> 
     </div>
   
     
@@ -50,9 +52,6 @@
   </div>
 
 
-
-  <script type="text/javascript" src="./data.js"></script>  
-  <script type="text/javascript" src="./inky-dinky.js"></script>  
 </body>
 </html>
 
