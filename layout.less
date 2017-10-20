@@ -1,0 +1,25 @@
+@import "variables.less";
+
+.button-container {
+  margin-top: 32px;
+}
+
+button {
+  position: relative;
+  padding: 25px 80px;
+	display: inline-block;
+  margin: 15px 30px;
+}
+
+button:after {
+	position: absolute;
+	z-index: -1;
+}
+
+button:hover {
+	top: 2px;
+}
+
+button:active {
+	top: 6px;
+}

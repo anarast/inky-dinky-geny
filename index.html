@@ -4,8 +4,10 @@
 <head>
   <meta charset="utf-8">
   <title>INKY DINKY</title>
-  <link rel="stylesheet/less" type="text/css" href="./styles.less" />  
+  <link rel="stylesheet/less" type="text/css" href="./styles.less" /> 
+  <link rel="stylesheet/less" type="text/css" href="./layout.less" />   
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
   <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
   
 </head>
@@ -14,17 +16,27 @@
 
   <div class="title">INKY DINKY GENERATOR, BABY</div>
 
-  <button onclick="showInfo()">What's an inky dinky?</button>
+  <div class="button-container">
+    <button id="generate" onclick="generateInkyDinky()">Generate inky dinky</button>
+    <div id="inky-dinky"></div>
+  </div>
+  
+  <div class="button-container">
+    <button onclick="showOrHideHint()">Give me a hint!</button>
+    <div id="hint"></div>
+  </div>
 
-  <button id="generate" onclick="generateInkyDinky()">Generate inky dinky</button>
-  <button onclick="showHint()">Give me a hint!</button>
-  <button onclick="showAnswer()">I give up!</button>
+  <div class="button-container">
+    <button onclick="showOrHideAnswer()">I give up!</button>
+    <div id="answer"></div>
+  </div>
 
-  <div id="inky-dinky"></div>
-  <div id="hint"></div>
-  <div id="answer"></div>
-  <div id="info"></div>
+  <div class="button-container">
+    <button onclick="showOrHideInfo()">What's an inky dinky?</button>
+    <div id="info"></div>
+  </div>
 
+  <script type="text/javascript" src="./data.js"></script>  
   <script type="text/javascript" src="./inky-dinky.js"></script>  
 </body>
 </html>

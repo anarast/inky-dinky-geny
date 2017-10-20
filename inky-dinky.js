@@ -1,22 +1,6 @@
-let data = {
-            "1": {
-              "description": "A primate that likes to get down",
-              "hint": "Not an ape",
-              "answer": "A funky monkey"
-            },
-            "2": {
-              "description": "A light-headed work of art",
-              "hint": "Most have a canvas medium",
-              "answer": "A fainting painting"
-            },
-            "3": {
-              "description": "A mysterious three-paneled piece of art",
-              "hint": "Very obscure",
-              "answer": "A cryptic triptych"
-            }
-          };
-
-let currentInkyDinky;
+let currentInkyDinky = '';
+let generated = false;
+let warning = 'Generate an inky dinky first!';
 
 function generateInkyDinky() {
   // Clear inky dinky
@@ -28,23 +12,48 @@ function generateInkyDinky() {
   document.getElementById('info').innerHTML = '';
 
   // Generate new inky dinky
-  let randomId = Math.floor((Math.random() * 3) + 1);
+  let randomId = Math.floor((Math.random() * 8) + 1);
   currentInkyDinky = data[randomId];  
   document.getElementById('inky-dinky').innerHTML = currentInkyDinky.description;
+
+  generated = true;
 }
 
-function showHint() {
-  document.getElementById('hint').innerHTML = currentInkyDinky.hint;
+function showOrHideHint() {
+  let element = document.getElementById('hint');
+
+  if (generated) {
+    if (element.innerHTML.length > 0) {
+      element.innerHTML = ''; 
+    } else {
+      element.innerHTML = currentInkyDinky.hint;   
+    }
+  } else {
+    element.innerHTML = warning;  
+  }
 }
 
-function showAnswer() {
-  document.getElementById('answer').innerHTML = currentInkyDinky.answer;
+function showOrHideAnswer() {
+  element = document.getElementById('answer');
+
+  if (generated) {
+    if (element.innerHTML.length > 0) {
+      element.innerHTML = ''; 
+    } else {
+      element.innerHTML = currentInkyDinky.answer;   
+    }
+  } else {
+    element.innerHTML = warning;  
+  }
 }
 
-function showInfo() {
+function showOrHideInfo() {
   let info = 'An inky dinky is a ...';
-  document.getElementById('info').innerHTML = info;
+
+  element = document.getElementById('info');
+  if (element.innerHTML.length > 0) {
+    element.innerHTML = ''; 
+  } else {
+    element.innerHTML = info;   
+  }
 }
-
-
-

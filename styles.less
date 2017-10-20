@@ -1,3 +1,49 @@
+@import "variables.less";
+
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: @body-font;
+  text-align: center;
+}
+
+.title {
+  font-family: @title-font;
+  font-size: @title-size;
+  color: @blue;
+}
+
+button {
+  border: none;
+  border-radius: 0 0 5px 5px;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  transition: all 0.3s;
+  background: @pink;
+	color: #fff;
+	box-shadow: 0 6px @darker-pink;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+button:after {
+	content: '';
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button:hover {
+	box-shadow: 0 4px @darker-pink;
+}
+
+button:active {
+	box-shadow: 0 0 @darker-pink;
 }
