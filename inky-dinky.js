@@ -42,7 +42,8 @@ function submitGuess() {
   if (guess.length < 1) {
     return;
   }
-  if (currentInkyDinky.answer.toLowerCase().indexOf(guess) >= 0) {
+  if ((currentInkyDinky.answer.toLowerCase().trim().indexOf(guess.toLowerCase().trim()) >= 0) ||
+     (guess.toLowerCase().trim().indexOf(currentInkyDinky.answer.toLowerCase().trim()) >= 0)) {
     showCorrectBanner();
   } else {
     showIncorrectBanner();
