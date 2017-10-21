@@ -1,66 +1,66 @@
 @import "variables.less";
-
 body {
-	font-family: @body-font;
-	background-color: @pale-blue;
+  font-family: @body-font;
+  background-color: @pale-blue;
 }
 
 .title {
   font-family: @title-font;
-	text-align: center;
-	font-size: @title-font-size;
+  text-align: center;
+  font-size: @title-font-size;
   color: @blue;
 }
 
-.generate, .button-container {
-	text-align: center;
+.generate,
+.button-container {
+  text-align: center;
 }
 
 .show-text {
-	color: @medium-blue;
-	font-size: @font-size;
+  color: @medium-blue;
+  font-size: @font-size;
 }
 
 #inky-dinky {
-	font-size: @font-size;
-	margin-left: 0;
+  font-size: @font-size;
+  margin-left: 0;
 }
 
 button {
   border: @pale-blue;
   border-radius: 0 0 5px 5px;
-	font-family: inherit;
-	font-size: @font-size;
-	color: inherit;
-	cursor: pointer;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	outline: none;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
+  font-family: inherit;
+  font-size: @font-size;
+  color: inherit;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
   transition: all 0.3s;
   background: @lighter-blue;
-	color: @white;
-	box-shadow: 0 6px @medium-blue;
-	-webkit-transition: none;
-	-moz-transition: none;
-	transition: none;
+  color: @white;
+  box-shadow: 0 6px @medium-blue;
+  -webkit-transition: none;
+  -moz-transition: none;
+  transition: none;
 }
 
 button:after {
-	content: '';
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+  content: '';
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 button:hover {
-	box-shadow: 0 4px @medium-blue;
+  box-shadow: 0 4px @medium-blue;
 }
 
 button:active {
-	box-shadow: 0 0 @medium-blue;
+  box-shadow: 0 0 @medium-blue;
 }
 
 button#generate {
@@ -93,73 +93,67 @@ button#submit:active {
 .input-field {
   font-family: @body-font;
   font-size: @input-font-size;
-	border: none;
-	border-radius: 0;
-	color: @grey;
-	font-weight: bold;
-	-webkit-appearance: none;
+  border: none;
+  border-radius: 0;
+  color: @grey;
+  font-weight: bold;
+  -webkit-appearance: none;
 }
 
 .input-field:focus {
-	outline: none;
+  outline: none;
 }
 
 .input-guess {
-	box-shadow: 0px 0px 0px 2px transparent;
-	color: @lighter-blue;
-	-webkit-transition: box-shadow 0.3s;
-	transition: box-shadow 0.3s;
+  box-shadow: 0px 0px 0px 2px transparent;
+  color: @lighter-blue;
+  -webkit-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
 }
 
 .input-guess:focus {
-	box-shadow: 0px 0px 0px 2px @lighter-blue;
+  box-shadow: 0px 0px 0px 2px @lighter-blue;
 }
 
 .input-guess:focus {
-	pointer-events: none;
+  pointer-events: none;
 }
 
 .input-guess:focus {
-	-webkit-animation: anim-shadow 0.3s forwards;
-	animation: anim-shadow 0.3s forwards;
+  -webkit-animation: anim-shadow 0.3s forwards;
+  animation: anim-shadow 0.3s forwards;
 }
 
 .incorrect-banner {
-	font-size: @font-size;
+  font-size: @font-size;
   color: @orange;
 }
 
 .correct-banner {
-	font-size: @font-size;
+  font-size: @font-size;
   color: @darker-green
 }
 
 @media only screen and (min-width: 768px) {
-	.title {
-		font-size: @title-font-size-desktop;		
-	}
-
-	button {
-		font-size: @font-size-desktop;
-	}
-
-	.input-field {
-		font-size: @input-font-size-desktop;
-	}
-
-	#inky-dinky {
-		font-size: @font-size-desktop;
-	}
-
-	.show-text {
-		font-size: @font-size-desktop;
-	}
-
-	.incorrect-banner {
-		font-size: @font-size-desktop;
-	}
-	
-	.correct-banner {
-		font-size: @font-size-desktop;
-	}
+  .title {
+    font-size: @title-font-size-desktop;
+  }
+  button {
+    font-size: @font-size-desktop;
+  }
+  .input-field {
+    font-size: @input-font-size-desktop;
+  }
+  #inky-dinky {
+    font-size: @font-size-desktop;
+  }
+  .show-text {
+    font-size: @font-size-desktop;
+  }
+  .incorrect-banner {
+    font-size: @font-size-desktop;
+  }
+  .correct-banner {
+    font-size: @font-size-desktop;
+  }
 }
