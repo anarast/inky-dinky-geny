@@ -1,9 +1,11 @@
 let currentInkyDinky = '';
+let seenInkyDinkys = [];
 let generated = false;
-let numIDs = (Object.keys(data).length);
+let numIDs = Object.keys(data).length;
 
 let warning = 'Generate an inky dinky first!';
 let info = 'An inky dinky is two words, like INKY and DINKY. Each word of the inky dinky has two syllables, like INKY and DINKY. The first syllable of the first word rhymes with the first syllable of the second, and vice versa, like INKY AND DINKY. Good luck!';
+
 
 function generateInkyDinky() {
   // Clear inky dinky
@@ -18,12 +20,31 @@ function generateInkyDinky() {
   document.getElementById('input-guess').value = '';
 
   // Generate new inky dinky
-  let randomId = Math.floor((Math.random() * numIDs) + 1);
-  currentInkyDinky = data[randomId];  
+  
+  currentInkyDinky = getRandomInkyDinky();
+  seenInkyDinkys.push(currentInkyDinky);
+
+  if (!currentInkyDinky) {
+    return;
+  }
+
   document.getElementById('inky-dinky').innerHTML = currentInkyDinky.description;
 
   generated = true;
   showInput();
+}
+
+function getRandomInkyDinky() {
+  let randomId = Math.floor((Math.random() * numIDs) + 1);
+  if (seenInkyDinkys.length === numIDs) {
+    document.getElementById('generate').removeAttribute('onclick');
+    return alert("You've seen 'em all! Refresh the page to play again.");
+  }
+  else if (!seenInkyDinkys.includes(data[randomId])) {
+    return data[randomId];
+  } else {
+    return getRandomInkyDinky();
+  }
 }
 
 function showInput() {

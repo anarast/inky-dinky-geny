@@ -88,5 +88,125 @@ data = {
     "description": "If you had a reptile pet and it died",
     "hint": "A rigid dead pet",
     "answer": "Tortoise mortis"
+  },
+  "19": {
+    "description": "A hypothesis one might make about a storage room",
+    "hint": "You'd make at least one of these if you were writing a PhD on storage rooms",
+    "answer": "Closet posit"
+  },
+  "20": {
+    "description": "If zoboomafoo made great web content",
+    "hint": "Dawkins would get this",
+    "answer": "Lemur memer"
+  },
+  "21": {
+    "description": "A cute melody that played whenever you ate the best chips ever invented",
+    "hint": "Sara's fav",
+    "answer": "Pringle jingle"
+  },
+  "22": {
+    "description": "A lazy programmer",
+    "hint": "With a penchant for breaking the law",
+    "answer": "Slacker hacker"
+  },
+  "23": {
+    "description": "If ants wanted to go to the moon",
+    "hint": "This would fit in your pants",
+    "answer": "Pocket rocket"
+  },
+  "24": {
+    "description": "A boxer who moved down to a lower weight class",
+    "hint": "You've got this",
+    "answer": "Lighter fighter"
+  },
+  "25": {
+    "description": "A Nordic person who is doing the Grouse Grind",
+    "hint": "Alternatively, a Norse person climbing the chief",
+    "answer": "Viking hiking"
+  },
+  "26": {
+    "description": "An evil spirit's seed",
+    "hint": "Possibly vulgar",
+    "answer": "Demon semen"
+  },
+  "27": {
+    "description": "A borrowed erection",
+    "hint": "Extremely crude",
+    "answer": "Loaner boner"
+  },
+  "28": {
+    "description": "A category of genitalia",
+    "hint": "It's a taxonomic category",
+    "answer": "Penis genus"
+  },
+  "29": {
+    "description": "The grisly murder of a beloved family member",
+    "hint": "Generally female family member",
+    "answer": "Daughter slaughter"
+  },
+  "30": {
+    "description": "A smooth-talking man of the land who steals your girl",
+    "hint": "Also could be a woman",
+    "answer": "Farmer charmer"
+  },
+  "31": {
+    "description": "A really fucking great party",
+    "hint": "Bro",
+    "answer": "Major rager"
+  },
+  "32": {
+    "description": "The urine of a Celtic priest",
+    "hint": "Or the sweat",
+    "answer": "Druid fluid"
+  },
+  "33": {
+    "description": "Someone who has incarcerated Sara's fav international pop star",
+    "hint": "How could anyone do such a thing",
+    "answer": "Taylor jailer"
+  },
+  "34": {
+    "description": "What Mussolini said to Hitler's aide after being given a cup of tea",
+    "hint": "Think about the nationalities",
+    "answer": "Grazie Nazi"
+  },
+  "35": {
+    "description": "A citizen of the Bavarian capital whose genitals had been removed",
+    "hint": "Generally male",
+    "answer": "Munich eunuch"
+  },
+  "36": {
+    "description": "A famous crotch",
+    "hint": "Iconic rock n roll singer crotch",
+    "answer": "Elvis pelvis"
+  },
+  "37": {
+    "description": "If Papa Francesco played hockey",
+    "hint": "A specific hockey position",
+    "answer": "Holy goalie"
+  },
+  "38": {
+    "description": "A flower that's always joking around",
+    "hint": "Also the name of a character on the hit sitcom 'How I Met Your Mother'",
+    "answer": "Silly lily"
+  },
+  "39": {
+    "description": "A neighbourhood of an underground city",
+    "hint": "You go down a hole to get to the underground city",
+    "answer": "Burrow borough"
+  },
+  "40": {
+    "description": "When Hitler rolls 5 dice of the same number",
+    "hint": "He's playing a game",
+    "answer": "Nazi Yahtzee"
+  },
+  "41": {
+    "description": "A restaurant where complaining is encouraged",
+    "hint": "Kids love this restaurant",
+    "answer": "Whiner diner"
+  },
+  "42": {
+    "description": "Nautical ejaculate",
+    "hint": "Boats, ocean",
+    "answer": "Seaman semen"
   }
 };
