@@ -117,3 +117,12 @@ function showOrHideInfo() {
     element.innerHTML = info;   
   }
 }
+
+function showOrHideCredits() {
+  element = document.getElementById('credits');
+  if (element.innerHTML.length > 0) {
+    element.innerHTML = '';
+  } else {
+    element.innerHTML = credits;
+  }
+}
