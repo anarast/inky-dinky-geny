@@ -122,7 +122,7 @@ data = {
   "25": {
     "description": "A Nordic person who is doing the Grouse Grind",
     "hint": "Alternatively, a Norse person climbing the chief",
-    "answer": "Viking hiking"
+    "answer": "Hiking viking"
   },
   "26": {
     "description": "An evil spirit's seed",
@@ -208,5 +208,15 @@ data = {
     "description": "Nautical ejaculate",
     "hint": "Boats, ocean",
     "answer": "Seaman semen"
+  },
+  "43": {
+    "description": "A doctor who frequents vineyards",
+    "hint": "A doctor for vaginas",
+    "answer": "Wino gyno"
+  },
+  "44": {
+    "description": "The mending of a wound that hasn't happened yet",
+    "hint": "Involves a needle and thread",
+    "answer": "Future suture"
   }
 };

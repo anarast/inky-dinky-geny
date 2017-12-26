@@ -5,7 +5,7 @@ let numIDs = Object.keys(data).length;
 
 let warning = 'Generate an inky dinky first!';
 let info = 'An inky dinky is two words, like INKY and DINKY. Each word of the inky dinky has two syllables, like INKY and DINKY. The first syllable of the first word rhymes with the first syllable of the second, and vice versa, like INKY AND DINKY. Good luck!';
-
+let credits = 'The real inky dinky generators: Sara T, Sam E, Eric P';
 
 function generateInkyDinky() {
   // Clear inky dinky
