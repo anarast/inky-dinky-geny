@@ -218,5 +218,279 @@ data = {
     "description": "The mending of a wound that hasn't happened yet",
     "hint": "Involves a needle and thread",
     "answer": "Future suture"
+  },
+  "45": {
+    "description": "When you're talking about one thing and then you make a smooth transition into talking about motorized scooters",
+    "hint": "One of those rare homonymic inky dinkys",
+    "answer": "Segway segue"
+  },
+  "46": {
+    "description": "A multifaceted gun",
+    "hint": "Sparkly",
+    "answer": "Crystal pistol"
+  },
+  "47": {
+    "description": "Someone who gets really philosophical when consuming alcohol",
+    "hint": "Or when consuming any beverage really",
+    "answer": "Drinker thinker"
+  },
+  "48": {
+    "description": "A crustacean who occasionally has to curb-stomp someone",
+    "hint": "Delicious",
+    "answer": "Lobster mobster"
+  },
+  "49": {
+    "description": "When you're blocked by a stack of shelled reptiles and you have to get over them",
+    "hint": "You will probably have to do a kind of jump",
+    "answer": "Turtle hurdle"
+  },
+  "50": {
+    "description": "When a system administrator does a martial art",
+    "hint": "Unix",
+    "answer": "Sudo judo"
+  },
+  "51": {
+    "description": "Someone who evaluates members of a certain genus of crocodilians",
+    "hint": "Like gives them a score out of ten",
+    "answer": "Gator rater"
+  },
+  "52": {
+    "description": "When you see a cute cat and head straight for it",
+    "hint": "It's not 'furry hurry'",
+    "answer": "Feline beeline"
+  },
+  "45": {
+    "description": "When Harry does something wrong with his wand and it’s very sad",
+    "hint": "Extremely sad",
+    "answer": "Tragic magic"
+  },
+  "53": {
+    "description": "Mindless talk about a word-based board game",
+    "hint": "Taylor Swift loves this game",
+    "answer": "Scrabble babble"
+  },
+  "54": {
+    "description": "When you wanna pull off a sick dance move, but you're really angry",
+    "hint": "The move involves your hips probably",
+    "answer": "Irate gyrate"
+  },
+  "55": {
+    "description": "A really annoying person who loves capitalism, and who also happens to be British",
+    "hint": "Who works with money",
+    "answer": "Banker wanker"
+  },
+  "56": {
+    "description": "A kilt-wearing citizen of an ancient Greek city-state",
+    "hint": "A famous movie was made about this city-state",
+    "answer": "Tartan Spartan"
+  },
+  "57": {
+    "description": "A sport where they use a Japanese snack food to shoot the puck",
+    "hint": "The snack comes in different flavours, like strawberry",
+    "answer": "Pocky hockey"
+  },
+  "58": {
+    "description": "When you subscribe to someone's twitter feed but your heart's not really in it",
+    "hint": "Or any social media",
+    "answer": "Hollow follow"
+  },
+  "59": {
+    "description": "The horse rider who brags about their victories",
+    "hint": "And is a bit of a dick",
+    "answer": "Cocky jockey"
+  },
+  "60": {
+    "description": "Candy magnate's brother's daughters",
+    "hint": "Peanut butter is involved",
+    "answer": "Reeses' nieces"
+  },
+  "61": {
+    "description": "A certain atmosphere being emanated from Ms. Explorer",
+    "hint": "Ms. The Explorer, to be more precise",
+    "answer": "Dora aura"
+  },
+  "62": {
+    "description": "A cowardly crow relative",
+    "hint": "A spooky poem was written involving this crow relative",
+    "answer": "Craven raven"
+  },
+  "63": {
+    "description": "An essential part of Canadian cuisine",
+    "hint": "Sara's fav! yum!",
+    "answer": "Maple staple"
+  },
+  "64": {
+    "description": "A hippopotamus, but a little lighter",
+    "hint": "More of a riddle than an inky dinky",
+    "answer": "Hippo zippo"
+  },
+  "65": {
+    "description": "A Christian who makes good cookies",
+    "hint": "Or bread",
+    "answer": "Quaker baker"
+  },
+  "66": {
+    "description": "How you would describe someone who was sometimes corporeal but usually not",
+    "hint": "They were usually see-through",
+    "answer": "Mostly ghostly"
+  },
+  "67": {
+    "description": "Haunted poop",
+    "hint": "If Green Day's third album was Halloween themed",
+    "answer": "Spooky dookie"
+  },
+  "68": {
+    "description": "If your father was only a few inches tall and you made this little container to carry him around in",
+    "hint": "Also works for Sara's little sister",
+    "answer": "Daddy caddy"
+  },
+  "69": {
+    "description": "A party in hell",
+    "hint": "Good times",
+    "answer": "Devil revel"
+  },
+  "70": {
+    "description": "When a nun's hat thing has a cute little dent in it",
+    "hint": "How do you solve a problem like Maria?",
+    "answer": "Wimple dimple"
+  },
+  "71": {
+    "description": "When your prof tries to suck your blood",
+    "hint": "And always takes your lunch",
+    "answer": "Teacher leecher"
+  },
+  "72": {
+    "description": "An underground bar",
+    "hint": "Literally underground",
+    "answer": "Cavern tavern"
+  },
+  "73": {
+    "description": "A member of the community who isn't afraid to make their voice heard",
+    "hint": "Think Parks & Rec",
+    "answer": "Vocal local"
+  },
+  "74": {
+    "description": "A college basketball player who gets good grades",
+    "hint": "And who is cool",
+    "answer": "Baller scholar"
+  },
+  "75": {
+    "description": "Someone who likes waking up mario's nemesis",
+    "hint": "Pretty self-explanatory",
+    "answer": "Bowser rouser"
+  }
+  ,
+  "76": {
+    "description": "A large pit from which you can obtain trucks",
+    "hint": "English trucks",
+    "answer": "Lorry quarry"
+  }
+  ,
+  "77": {
+    "description": "A rather large bowl of a Louisianian soup",
+    "hint": "More like stew probably",
+    "answer": "Jumbo gumbo"
+  }
+  ,
+  "78": {
+    "description": "The tree used to harvest syrup for the Pope's pancakes",
+    "hint": "A very special tree",
+    "answer": "Papal maple"
+  }
+  ,
+  "79": {
+    "description": "When your feudal servant is making a fuss about their living conditions",
+    "hint": "And it's annoying",
+    "answer": "Vassal hassle"
+  },
+  "80": {
+    "description": "If a ton of birds started shedding their plumage while flying and it was falling down from the sky",
+    "hint": "A general term",
+    "answer": "Feather weather"
+  },
+  "81": {
+    "description": "When you exercise your right to disallow the purchase of a cheese-puff snack",
+    "hint": ":(",
+    "answer": "Cheeto veto"
+  },
+  "82": {
+    "description": "When you go on a drinking spree in Vancouver's historic Chinatown",
+    "hint": "Specifically on one major street",
+    "answer": "Pender bender"
+  },
+  "83": {
+    "description": "When you yoga so hard that it makes you vomit",
+    "hint": "Or gag",
+    "answer": "Stretching retching"
+  },
+  "84": {
+    "description": "When your lettuce is looking really pale and colourless",
+    "hint": "Like death warmed over",
+    "answer": "Pallid salad"
+  },
+  "85": {
+    "description": "An excessively gaudy group of churchgoers",
+    "hint": "Highly vulgar",
+    "answer": "Garish parish"
+  },
+  "86": {
+    "description": "When your maid quits, and the new one isn't as nice",
+    "hint": "Part of a series",
+    "answer": "Meaner cleaner"
+  },
+  "87": {
+    "description": "When your maid quits and the new one is all environmentally conscious and it's annoying",
+    "hint": "Part of a series",
+    "answer": "Greener cleaner"
+  },
+  "88": {
+    "description": "When your maid quits and the new one is really motivated and into it, and it's kinda annoying",
+    "hint": "Part of a series",
+    "answer": "Keener cleaner"
+  },
+  "89": {
+    "description": "When your maid quits and the new one is kind of a wimp",
+    "hint": "Part of a series",
+    "answer": "Weiner cleaner"
+  },
+  "90": {
+    "description": "When your enthusiasm for something borders on obsession and so you restrict yourself to thinking about it only a few times a day",
+    "hint": "A militaristic restriction",
+    "answer": "Passion ration"
+  },
+  "91": {
+    "description": "A sheep that likes to pick on other sheep",
+    "hint": "Think about the physical characteristics of a sheep",
+    "answer": "Wooly bully"
+  },
+  "92": {
+    "description": "If It from the novel It also made beer while luring kids",
+    "hint": "The beer has human waste in it",
+    "answer": "Sewer brewer"
+  },
+  "93": {
+    "description": "Someone who looks after the star of 'The Longest Yard' and makes sure he stays safe and doesn't get into trouble",
+    "hint": "I've heard this is a good movie",
+    "answer": "Sandler handler"
+  },
+  "94": {
+    "description": "The entrails of a delicious breakfast treat",
+    "hint": "Slightly obscure word for entrails",
+    "answer": "Waffle offal"
+  },
+  "95": {
+    "description": "A shoe that thinks it's better than other shoes",
+    "hint": "Baby shoe?",
+    "answer": "Snootie bootie"
+  },
+  "96": {
+    "description": "A robbery at Dunder-Mifflin",
+    "hint": "Think about what the company sells",
+    "answer": "Paper caper"
+  },
+  "97": {
+    "description": "A wicked beetle",
+    "hint": "Gross",
+    "answer": "Evil weevil"
   }
 };
