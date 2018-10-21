@@ -5,23 +5,24 @@
   <meta charset="utf-8">
   <title>INKY DINKY</title>
   <meta name="viewport" content="width=device-width" />
-  <link rel="stylesheet/less" type="text/css" href="./styles.less" /> 
-  <link rel="stylesheet/less" type="text/css" href="./layout.less" />   
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
-  <script type="text/javascript" src="./data.js"></script>  
-  <script type="text/javascript" src="./inky-dinky.js"></script>  
+  <link rel="manifest" href="/manifest.json">
 
+  <link rel="stylesheet/less" type="text/css" href="./styles/styles.less" /> 
+  <link rel="stylesheet/less" type="text/css" href="./styles/layout.less" />   
+
+  <script type="text/javascript" src="./scripts/less.min.js"></script>
+  <script type="text/javascript" src="./js/data.js"></script>  
+  <script type="text/javascript" src="./js/inky-dinky.js"></script>
+    
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108417092-1"></script>
-  <script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108417092-1"></script> -->
+  <!-- <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'UA-108417092-1');
-  </script>
+  </script> -->
 </head>
 
 <body>
@@ -41,7 +42,6 @@
       <div class="correct-banner">You got it!</div>
       <div class="incorrect-banner">Not quite :/ Try again, or click the 'hint' button first.</div> 
     </div>
-
 
     <div class="buttons">
       <div class="button-container">
@@ -65,7 +65,6 @@
       </div>
     </div>
   </div>
-
 
 </body>
 </html>

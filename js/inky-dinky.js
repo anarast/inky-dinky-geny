@@ -1,3 +1,9 @@
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('./service-worker.js')
+           .then(function() { console.log('Service Worker Registered'); });
+}
+
 let currentInkyDinky = '';
 let seenInkyDinkys = [];
 let generated = false;
