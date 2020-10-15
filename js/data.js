@@ -530,14 +530,14 @@ data = {
     answer: "Sweden Eden",
   },
   100: {
-    description: "Garage mirage",
-    hint: "Car hole",
-    answer:
+    description:
       "When you're wandering in a desert thirstily and you see a structure housing a car",
+    hint: "Car hole",
+    answer: "Garage mirage",
   },
   101: {
-    description: "Female email",
+    description: "A gendered electronic message",
     hint: "",
-    answer: "A gendered electronic message",
+    answer: "Female email",
   },
 };
